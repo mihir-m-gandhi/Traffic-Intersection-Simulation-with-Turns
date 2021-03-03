@@ -17,7 +17,7 @@
 ### Features added:
 
 * `Vehicle Turning Functionality` - Unlike the previous simulation where all the vehicles went straight through the intersection, some of the vehicles will be turning left, some right, and some will go straight in the modified simulation.
-* `Vehicle Type Controller` - This feature lets us choose which vehicle types among  car, bus, truck and bike, we want in our simulation.
+* `Vehicle Type Controller` - This feature lets us choose which vehicle types among  car, bus, truck and bike we want in our simulation.
 * `Random Green Signal Timer` - If enabled, this feature sets the green signal time equal to a random number generated within a given range.
 
 ------------------------------------------
