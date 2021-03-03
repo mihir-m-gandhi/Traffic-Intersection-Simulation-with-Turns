@@ -166,7 +166,7 @@ class Vehicle(pygame.sprite.Sprite):
                     if((self.x+self.image.get_rect().width<=self.stop or (currentGreen==0 and currentYellow==0)) and (self.index==0 or self.x+self.image.get_rect().width<(vehicles[self.direction][self.lane][self.index-1].x - movingGap))):                
                         self.x += self.speed
                 else:
-                    if((self.crossedIndex==0) or (self.x+self.image.get_rect().width<(vehiclesNotTurned[self.direction][self.lane][self.crossedIndex-1].x - movingGap) or (vehiclesNotTurned[self.direction][self.lane][self.crossedIndex-1].turned==1))):                
+                    if((self.crossedIndex==0) or (self.x+self.image.get_rect().width<(vehiclesNotTurned[self.direction][self.lane][self.crossedIndex-1].x - movingGap))):                 
                         self.x += self.speed
         elif(self.direction=='down'):
             if(self.crossed==0 and self.y+self.image.get_rect().height>stopLines[self.direction]):
