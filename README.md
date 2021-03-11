@@ -20,7 +20,7 @@
 * `Vehicle Type Controller` - This feature lets us choose which vehicle types among  car, bus, truck and bike we want in our simulation.
 * `Random Green Signal Timer` - If enabled, this feature sets the green signal time equal to a random number generated within a given range.
 
-Find a step-by-step guide to build this simulation [here](https://towardsdatascience.com/traffic-intersection-simulation-using-pygame-part-2-9ce512fdb253).
+Find a step-by-step guide to build this simulation [here](https://towardsdatascience.com/traffic-intersection-simulation-using-pygame-689d6bd7687a).
 
 ------------------------------------------
 ### Demo
